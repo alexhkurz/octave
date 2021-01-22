@@ -1,0 +1,13 @@
+figure 1;
+[x,y] = meshgrid(-10:10);
+a = -1;
+b = -1;
+c = 1;
+z=a*x+b*y+c;
+surf(x, y, z);
+hold on;
+a = 1;
+b = 1;
+c = 1;
+z=a*x+b*y+c;
+surf(x, y, z);
